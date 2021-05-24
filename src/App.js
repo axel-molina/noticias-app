@@ -1,10 +1,15 @@
-
+import React, {Fragment} from 'react';
+import Header from './components/Header';
+import Formulario from './components/Formulario';
 
 function App() {
   return (
-    <div className="App">
-        <h1>Noticias App</h1>
-    </div>
+    <Fragment>
+      <Header
+      titulo = 'Buscador de noticias'
+      ></Header>
+      <Formulario></Formulario>
+    </Fragment>
   );
 }
 
